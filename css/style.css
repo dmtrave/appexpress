@@ -1,0 +1,743 @@
+
+.Section1Menu {
+	margin-top: 50px;
+}
+
+.Section1 {
+	background: url(../img/bg_2.jpg) no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 25px;
+	background-position: center;
+}
+
+.NavmenuHeader ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 15px;
+	padding-right: 15px;
+
+	 
+}
+
+.NavmenuHeader ul {
+	margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 0px;
+}
+
+.NavmenuHeader ul li a:hover {
+	text-decoration: none;
+	
+}
+
+.NavmenuHeader ul li a p{
+	list-style-type: none;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+	font-family: "MuseoSansCyrl_900";
+}
+
+.NavmenuHeader ul li a p:hover{
+	list-style-type: none;
+	font-size: 14px;
+	color: #007eff;
+	text-decoration: none;
+	font-family: "MuseoSansCyrl_900";
+}
+
+.NavmenuHeader {
+	padding-top: 3px;
+	text-align: center;
+}
+
+a.BtnMenuHeader {
+	font-size: 20px;
+	color: #007eff;
+	font-family: "MuseoSansCyrl_700";
+	border: 1px solid #fff;
+	border-radius: 40px;
+	padding: 12px 36px;
+}
+
+a.BtnMenuHeader:hover {
+	font-size: 20px;
+	color: #fff;
+	font-family: "MuseoSansCyrl_700";
+	border: 1px solid #fff;
+	border-radius: 40px;
+	padding: 12px 36px;
+	
+}
+
+.Section1Title {
+	
+	margin-top: 19%;
+}
+
+.Section1Content {
+	text-align: center;
+}
+
+.Section1Content h1{
+	font-size: 68px;
+	color: #fff;
+	font-family: "MuseoSansCyrl_900";
+	text-transform: uppercase;
+}
+
+.Section1Content h2{
+	font-size: 48px;
+	color: #fff;
+	font-family: "MuseoSansCyrl_900";
+	
+}
+.Section1Btn a{
+	text-decoration: none;
+}
+
+a.BtnSection1Content {
+	font-size: 20px;
+	color: #007eff;
+	font-family: "MuseoSansCyrl_700";
+	border: 1px solid #fff;
+	border-radius: 40px;
+	padding: 12px 36px;
+}
+
+a.BtnSection1Content:hover {
+	font-size: 20px;
+	color: #fff;
+	font-family: "MuseoSansCyrl_700";
+	border: 1px solid #fff;
+	border-radius: 40px;
+	padding: 12px 36px;
+
+}
+
+.Section1Btn {
+	margin-top: 6%;
+	
+}
+
+.Section1BtnWpapper {
+	text-align: center;
+}
+
+.Section1Scroll {
+	margin-top: 17%;
+	
+
+}
+
+
+.ScrollSection1Content {
+	background: url(../img/scroll_3.gif) no-repeat;
+	width: 200px;
+	height: 100px;
+	background-size: 100px 100px;
+	background-position-x: 25%;
+	
+	
+
+}
+/*-------------Media Section 1--------------------------*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px) { 
+	.NavmenuHeader ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 3px;
+	padding-right: 3px;
+
+	 
+}
+.NavmenuHeader {
+	padding-top: 1px;
+	text-align: center;
+}
+.ScrollSection1Content {
+	background: url(../img/scroll_3.gif) no-repeat;
+	width: 100px;
+	height: 100px;
+	background-size: 100px 100px;
+	background-position-x: 25%;
+	
+	
+
+}	
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media (min-width: 300px) and (max-width: 767px) {
+.Section1 {
+	background: url(../img/bg_2.jpg) no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 50px;
+	background-position: center;
+} 
+.Section1Title {
+	
+	margin-top: 6%;
+}
+.Section1Content h1{
+	font-size: 50px;
+	color: #fff;
+	font-family: "MuseoSansCyrl_900";
+	text-transform: uppercase;
+}
+
+.Section1Content h2{
+	font-size: 37px;
+	color: #fff;
+	font-family: "MuseoSansCyrl_900";
+	
+}	
+.NavmenuHeader ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 3px;
+	padding-right: 3px;
+
+	 
+}
+.NavmenuHeader {
+	padding-bottom: 15px;
+	text-align: center;
+}
+.ScrollSection1Content {
+	background: url(../img/scroll_3.gif) no-repeat;
+	width: 50px;
+	height: 50px;
+	background-size: 50px 50px;
+	
+
+}
+.LogoMain {
+	text-align: center;
+	padding-bottom: 15px;
+}
+.MobMargin {
+	margin-top: 20px;
+}
+}
+
+
+/*-------------------Section 2--------------------------*/
+
+.Section2 {
+	background: url(../img/section2_bg.jpg) no-repeat;
+	width: 100%;
+	height: 100%;
+	background-position: bottom;
+	padding-bottom: 370px;
+	border-bottom: 1px solid #cddff0;
+}
+
+.TitleSection2 {
+	margin-top: 7%;
+	font-size: 48px;
+	color: #525252;
+	text-align: center;
+	font-family: "MuseoSansCyrl_700";
+	text-transform: uppercase;
+
+
+}
+
+.SubTitleSection2 {
+	margin-top: 2%;
+	font-size: 20px;
+	color: #828282;
+	font-family: "MuseoSansCyrl_500";
+	
+}
+/*-------------Media Section 2--------------------------*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+.Section2 {
+	background: url(../img/section2_bg.jpg) no-repeat;
+	width: 100%;
+	height: 100%;
+	background-position: bottom;
+	padding-bottom: 270px;
+	border-bottom: 1px solid #cddff0;
+}
+
+.SubTitleSection2 {
+	margin-top: 2%;
+	font-size: 20px;
+	color: #828282;
+	font-family: "MuseoSansCyrl_500";
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}	
+}
+/* Extra small devices (phones, less than 768px) */
+@media (min-width: 300px) and (max-width: 767px) {
+	.Section2 {
+	background: url(../img/section2_bg.jpg) no-repeat;
+	width: 100%;
+	height: 100%;
+	background-position: bottom;
+	padding-bottom: 200px;
+	border-bottom: 1px solid #cddff0;
+}
+	.SubTitleSection2 {
+	margin-top: 2%;
+	font-size: 14px;
+	color: #828282;
+	font-family: "MuseoSansCyrl_500";
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+}
+/*-------------------Section 3--------------------------*/
+
+.Section3 {
+	background: #eee;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 206px;
+}
+
+.TitleSection3 {
+	margin-top: 7%;
+	font-size: 48px;
+	color: #525252;
+	text-align: center;
+	font-family: "MuseoSansCyrl_700";
+	text-transform: uppercase;
+
+
+}
+.SubTitleSection3 {
+	margin-top: 0%;
+	font-size: 20px;
+	color: #828282;
+	text-align: center;
+	font-family: "MuseoSansCyrl_500";
+	
+}
+
+.IconsSection3 {
+	margin-top: 5%;
+	text-align: center;
+	padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+p.IconTitleSection3 {
+	font-size: 18px;
+	color: #333;
+	text-transform: uppercase;
+	font-family: "MuseoSansCyrl_500";
+
+}
+
+span.IconSubTitleSection3 {
+	font-size: 16px;
+	color: #333;
+	font-family: "MuseoSansCyrl_300";
+
+}
+
+.IconBoxSection3_1 img {
+	padding-bottom: 31px;
+}
+
+.IconBoxSection3_2 img {
+	padding-bottom: 40px;
+}
+
+.IconBoxSection3_3 img {
+	padding-bottom: 36px;
+}
+.IconBoxSection3_4 img {
+	padding-bottom: 33px;
+}
+
+.IconBoxSection3_5 img {
+	padding-bottom: 33px;
+}
+
+.MobSection3 img {
+	position: absolute;
+	margin-top: 17%;
+	
+}
+/*-------------Media Section 3--------------------------*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+
+.IconsSection3 {
+	margin-top: 5%;
+	text-align: center;
+	padding-left: 0px;
+    padding-right: 0px;
+}
+.IconBoxSection3_1 {
+	padding-bottom: 31px;
+	padding-left: 0px;
+    padding-right: 0px;
+}
+
+.IconBoxSection3_2 {
+	padding-bottom: 40px;
+	padding-left: 0px;
+    padding-right: 0px;
+}
+
+.IconBoxSection3_3 {
+	padding-bottom: 36px;
+	padding-left: 0px;
+    padding-right: 0px;
+}
+.IconBoxSection3_4 {
+	padding-bottom: 33px;
+	padding-left: 0px;
+    padding-right: 0px;
+}
+
+.IconBoxSection3_5 {
+	padding-bottom: 33px;
+	padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+p.IconTitleSection3 {
+	font-size: 16px;
+	color: #333;
+	text-transform: uppercase;
+	font-family: "MuseoSansCyrl_500";
+
+}
+
+span.IconSubTitleSection3 {
+	font-size: 14px;
+	color: #333;
+	font-family: "MuseoSansCyrl_300";
+
+}
+
+
+}
+/* Extra small devices (phones, less than 768px) */
+@media (min-width: 300px) and (max-width: 767px) {
+.IconBoxSection3_1 {
+	padding-top: 10px;
+	padding-bottom: 31px;
+	padding-left: 0px;
+    padding-right: 0px;
+}
+
+.IconBoxSection3_2 {
+	padding-top: 10px;
+	padding-bottom: 40px;
+	padding-left: 0px;
+    padding-right: 0px;
+}
+
+.IconBoxSection3_3 {
+	padding-top: 10px;
+	padding-bottom: 36px;
+	padding-left: 0px;
+    padding-right: 0px;
+}
+.IconBoxSection3_4 {
+	padding-top: 10px;
+	padding-bottom: 33px;
+	padding-left: 0px;
+    padding-right: 0px;
+}
+
+.IconBoxSection3_5 {
+	padding-top: 10px;
+	padding-bottom: 33px;
+	padding-left: 0px;
+    padding-right: 0px;
+
+}
+.MobSection3 img {
+	
+	margin-top: 17%;
+	
+}
+.MobSection3Padding {
+	padding-left: 0px;
+    padding-right: 0px;
+}
+}
+/*-------------------Section 4--------------------------*/
+
+.Section4 {
+	background: #fff;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 0px;
+}
+
+.TitleSection4 {
+	margin-top: 12%;
+	font-size: 48px;
+	color: #525252;
+	text-align: center;
+	font-family: "MuseoSansCyrl_700";
+	text-transform: uppercase;
+
+
+}
+.SubTitleSection4 {
+	margin-top: 0%;
+	font-size: 20px;
+	color: #828282;
+	text-align: center;
+	font-family: "MuseoSansCyrl_500";
+	
+}
+
+.MobSection4 img {
+	position: absolute;
+	text-align: right;
+}
+
+.ListSection4 {
+	margin-top: 7%;	
+}
+
+.ListSection4 ul li {
+	list-style-type: none;
+	padding-bottom: 40px;
+	
+}
+
+.BorderListSection4 {
+	font-size: 18px;
+	color: #333;
+	font-family: "MuseoSansCyrl_500";
+	border-left: 2px solid #007eff;
+	padding-left: 20px;
+
+}
+
+.ContentSection4 {
+	margin-top: 3%;
+}
+/*-------------Media Section 4--------------------------*/
+
+/* Extra small devices (phones, less than 768px) */
+@media (min-width: 300px) and (max-width: 767px) {
+.SubTitleSection4 {
+	margin-top: 0%;
+	font-size: 18px;
+	color: #828282;
+	text-align: center;
+	font-family: "MuseoSansCyrl_500";
+	
+}
+.BorderListSection4 {
+	font-size: 16px;
+	color: #333;
+	font-family: "MuseoSansCyrl_500";
+	border-left: 2px solid #007eff;
+	padding-left: 20px;
+
+}
+}
+/*-------------------Section 5--------------------------*/
+
+.Section5 {
+	background: #eee;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 30px;
+}
+
+.TitleSection5 {
+	margin-top: 12%;
+	font-size: 48px;
+	color: #525252;
+	text-align: center;
+	font-family: "MuseoSansCyrl_700";
+	text-transform: uppercase;
+
+
+}
+.FormSection5 {
+	margin-top: 4%;
+}
+
+#TextNameSection5 {
+	display: block;
+    width: 100%;
+    height: 42px;
+    padding: 6px 12px;
+    font-size: 20px;
+    line-height: 1.42857143;
+    color: #828282;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #e4e4e4;
+    border-radius: 0px; 
+	font-family: "MuseoSansCyrl_300";
+	text-transform: uppercase;
+}
+
+#TextMailSection5 {
+	display: block;
+    width: 100%;
+    height: 42px;
+    padding: 6px 12px;
+    font-size: 20px;
+    line-height: 1.42857143;
+    color: #828282;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #e4e4e4;
+    border-radius: 0px; 
+	font-family: "MuseoSansCyrl_300";
+	text-transform: uppercase;
+}
+
+#TextHereSection5 {
+	display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 20px;
+    line-height: 1.42857143;
+    color: #828282;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #e4e4e4;
+    border-left: 1px solid #007eff;
+    border-radius: 0px; 
+	font-family: "MuseoSansCyrl_300";
+}
+
+.BtnFormSection5 {
+	position: absolute;
+	color: #fff;
+    text-decoration: none;
+   	display: inline-block;
+    padding: 6px 36px;
+    margin-top: -40px;
+    font-size: 20px;
+    line-height: 1.42857143;
+    text-align: center;
+    background: #007eff;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    font-family: "MuseoSansCyrl_700";
+}
+
+.FooterSection5 {
+	margin-top: 20px;
+}
+.SkypeSection5 {
+	font-size: 16px;
+	color: #828282;
+	font-family: "MuseoSansCyrl_300";
+	
+
+
+}
+
+.EmailSection5 {
+	padding-left: 29px;
+	font-size: 16px;
+	color: #828282;
+	font-family: "MuseoSansCyrl_300";
+	
+
+
+}
+
+
+/*-------------Media Section 5--------------------------*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+.TextHerePadding {
+	padding-left: 0px;
+    padding-right: 0px;	
+	}
+
+.BtnFormSection5 {
+	position: absolute;
+	color: #fff;
+    text-decoration: none;
+   	display: inline-block;
+    padding: 6px 36px;
+    margin-top: -10px;
+    font-size: 20px;
+    line-height: 1.42857143;
+    text-align: center;
+    background: #007eff;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    font-family: "MuseoSansCyrl_700";
+}
+
+.FooterSection5 {
+	margin-top: 55px;
+}
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media (min-width: 300px) and (max-width: 767px) {
+
+.TextHerePadding {
+	padding-left: 0px;
+    padding-right: 0px;	
+}
+	.FooterSection5 {
+	margin-top: 35px;
+}
+.BtnFormSection5 {
+	position: absolute;
+	color: #fff;
+    text-decoration: none;
+   	display: inline-block;
+    padding: 6px 36px;
+    margin-top: -10px;
+    font-size: 20px;
+    line-height: 1.42857143;
+    text-align: center;
+    background: #007eff;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    font-family: "MuseoSansCyrl_700";
+}
+.SkypeSection5 {
+	font-size: 14px;
+	color: #828282;
+	font-family: "MuseoSansCyrl_300";
+	
+
+
+}
+
+.EmailSection5 {
+	padding-left: 0px;
+	font-size: 14px;
+	color: #828282;
+	font-family: "MuseoSansCyrl_300";
+	
+
+
+}
+
+}
+
+
